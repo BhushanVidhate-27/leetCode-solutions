@@ -1,0 +1,11 @@
+// Title: Nim Game
+            // Difficulty: Easy
+            // Language: C++
+            // Link: https://leetcode.com/problems/nim-game/
+
+class Solution {
+public:
+    bool canWinNim(int n) {
+        return n%4 != 0;
+    }
+};
